@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.main {
+  z-index: 1;
+  overflow: auto;
+}
+
+.colors {
+  margin-top: 12em;
+}
+
+nav {
+  background-color: #333333;
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  z-index: 2;
+}
+ nav li {
+   display: block;
+   color: GhostWhite;
+   margin-bottom: 0.5em;
+ }
+
+.navigation {
+  margin-left: 34em;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 0 0.5em;
+}
+
+.navigation a {
+  color: GhostWhite;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation a:hover {
+  color: #CD5C5C;
+}
+
+#logo {
+  float: left;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+#title {
+  font-size: 1.6em;
+  position: relative;
+  margin: 0 auto;
+  width: 13em;
+  text-transform: uppercase;
+}
+
+#author {
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: lighter;
+  position: relative;
+  margin: 0 auto;
+  width: 6em;
+}
+
+#date {
+  font-size: 1.2em;
+  font-weight: lighter;
+  border-top: 2px solid GhostWhite;
+  border-bottom: 2px solid GhostWhite;
+  width: 2.5em;
+  position: relative;
+  margin: 0 auto;
+}
+
+.colors {
+  position:
+}
+
+.heading {
+  margin-top: 2em;
+  margin-left: 3em;
+  font-weight: 600;
+  font-size: 1.6em;
+  text-decoration: overline;
+  text-transform: uppercase;
+}
+
+.color-description {
+  margin-left: 6em;
+}
+
+.color-description a {
+  color: #333333;
+}
+
+.color-description a:hover {
+  color: #CD5C5C;
+}
+
+.color-types li{
+  display: inline-block;
+  margin: 1em 1em 0em 2em;
+  width: 10em;
+  height: 10em;
+  border: 1.2em solid WhiteSmoke;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.color-1 {
+  background-color: #333333;
+}
+
+.color-2 {
+  background-color: #f8f8ff;
+}
+
+.color-3 {
+  background-color: #CD5C5C;
+}
+
+#description {
+  position: relative;
+  /*margin: 2.3em 1em 0em 1em;*/
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#purpose {
+  display: inline-block;
+  margin: 0em 3.5em 0em 7.6em;
+}
+
+.font-types li{
+  display: inline-block;
+  margin-left: 3em;
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+.font-types h4 {
+  font-size: 1.3em;
+  /*text-decoration: underline;*/
+}
+
+#italic {
+  font-style: italic;
+}
+
+#bold {
+  font-weight: 600;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-types a {
+  text-align: center;
+  color: #333333;
+}
+
+.font-types a:hover {
+  color: #CD5C5C;
+}
+
+#learn-more {
+  text-align: center;
+}
+
+.page-element-types{
+  margin-left: 6em;
+}
+
+#sub-heading {
+  font-size: 1.3em;
+  margin-left: 3.7em;
+}
+
+#author-example {
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: lighter;
+  margin-left: 3.7em;
+}
